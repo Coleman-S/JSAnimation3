@@ -34,7 +34,8 @@ particles.setAttribute(
 
 // Create Particle Material
 const material = new THREE.PointsMaterial({
-   color: 0x00ff99,
+   // color: 0x00ff99,
+   color: 0x00a3ff,
    size: 0.05,
    transparent: true,
    opacity: 0.8, // Slight glow effect
